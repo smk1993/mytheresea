@@ -4,7 +4,7 @@
   "description": "Setting up React without CRA or any other tools",
   "main": "index.js",
   "scripts": {
-    "serve": "webpack serve",
+
     "webpack": "webpack",
     "dev": "npm run serve -- --env mode=development",
     "prod": "npm run webpack -- --env mode=production",
