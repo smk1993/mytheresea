@@ -1,0 +1,22 @@
+
+
+:root {
+    --background : hsl(0, 4%, 15%);
+    --color : rgb(255, 255, 255);
+    --fullHeight : 100vh;
+    --fullWidth : 100vw;
+    --header : #ffffff;
+    --buttonBackground : rgb(23, 223, 90);
+}
+body {
+    margin: 0px;
+}
+.container {
+    background-color: var(--background);
+    color: var(--color);
+}
+@mixin  card-seperator {
+    background-image: radial-gradient(circle, rgba(210, 208, 208, 0.190914) 0%, rgba(210, 208, 208, 0) 90%);
+    border: none;
+    height: 2px;
+}

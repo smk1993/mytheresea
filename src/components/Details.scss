@@ -1,0 +1,28 @@
+
+
+.movie_detail {
+    background-color: var(--background);
+    color: var(--color);
+    padding: 1rem 5rem;
+    height: var(--fullHeight);
+}
+.detail_container {
+    display: flex;
+
+
+}
+.movie_desc {
+    padding: 2rem;
+}
+button {
+   padding: 1rem;
+    background: greenyellow;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+button:disabled {
+    background: grey;
+    color: #fff;
+}

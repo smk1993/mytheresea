@@ -1,0 +1,19 @@
+
+.wishList_container {
+    background-color: var(--background);
+    color: var(--color);
+    padding: 1rem 5rem;
+    height: var(--fullHeight);
+    display: flex;
+    justify-content: flex-start;
+}
+.show_list {
+    width: 154px;
+    display: flex;
+    height: 254px;
+    align-items: center;
+    padding: 1rem;
+    flex-direction: column;
+
+}
+
